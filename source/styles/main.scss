@@ -23,6 +23,7 @@ body{
     background-image: url(../img/IMAGE.png);
     width: 100vw;
     background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .contanier{
@@ -187,18 +188,7 @@ border-radius: 53px;
 position: relative;
 
 }
-.about-us-details-layout__icon-shadow{
-    width: 53px;
-height: 53px;
-background-color: #19bd9a;;
-border-radius: 53px;
-position: relative;
-opacity: 0;
 
-}
-.about-us-details-layout__icon-shadow:hover{
-    opacity: 1;
-}
 .about-us-details-layout__about-heart{
     background-image: url(../img/heart.png);
     width: 40px;
@@ -226,6 +216,18 @@ width: 40px;
     right:4px;
     bottom: 4px;
     background-repeat: no-repeat;
+    }
+    .about-us-details-layout__icon-shadow{
+        width: 53px;
+    height: 53px;
+    background-color: gray;
+    border-radius: 53px;
+    position: relative;
+    transition: 0.3s all ease-in-out;
+    
+    }
+    .about-us-details-layout__icon-shadow:hover{
+        background-color: #19bd9a;
     }
     .about-us-details-layout__middle-title{
     align-self: flex-start;
