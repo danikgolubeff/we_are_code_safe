@@ -1,0 +1,284 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{box-sizing: border-box;
+
+}
+@font-face{
+    font-family: "Source Sans Pro";
+    src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+@font-face{
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face{
+    font-family: "Pe-icon-7-stroke";
+    src: url(../fonts/Pe-icon-7-stroke.ttf);
+}
+
+
+.slider-layout {
+    background-image: url(../img/IMAGE.png);
+    width: 100vw;
+    background-repeat: no-repeat;
+
+}
+.contanier{
+    width: 80%;
+    margin: 0 auto;
+    
+
+}
+.slider-layout__contanier{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slider-layout__title{
+
+padding-top: 150px;;
+color: #ffffff;
+font-family: "Source Sans Pro";
+font-size: 35px;
+font-weight: 300;
+line-height: 70px;
+text-transform: uppercase;
+letter-spacing: 7px;
+text-align: center;
+}
+
+.slider-layout__content{
+
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.8px;
+text-align: center;
+}
+.slider-layout__slider_img{
+background-image: url(../img/Ellipse_1_copy.png);
+width: 36px;
+height: 36px;
+background-color: #19bd9a;
+border-radius: 36px;
+position: relative;
+margin-top: 120px;
+
+}
+.slider-layout__slider_symbol{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    align-self: center;
+    color: #ffffff;
+   text-align: center;
+   right: 10px;
+   bottom: 30px;
+   
+}
+.about-us-layout__contanier{
+    display: flex;
+ justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+.about-us-layout__content{
+    width: 60%;
+}
+.about-us-layout__title{
+    color: #333b46;
+font-family: "Source Sans Pro";
+font-size: 20px;
+font-weight: 300;
+line-height: 12px;
+text-transform: uppercase;
+/* Text style for "This is Bo" */
+letter-spacing: 4px;
+}
+.about-us-layout__discription{
+    color: #81868e;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 25px;
+/* Text style for "A, t vero" */
+letter-spacing: 0.7px;
+}
+.about-us-layout__button{
+color: #333b46;
+width: 140px;
+height: 37px;
+border-radius: 19px;
+border: 1px solid #333b46;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+line-height: 3px;
+
+text-align: center;
+
+}
+.about-us-layout__img{
+background-image: url(../img/IPAD.png);
+width: 215px;
+height: 350px;
+background-repeat: round;
+}
+
+.about-us-details-layout{
+   background-color: rgb(245, 245, 245); 
+}
+.about-us-details-layout__contanier{
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+}
+.about-us-details-layout__about-content{
+display: flex;
+justify-items: center;
+align-items: center;
+flex-direction: column;
+}
+.about-us-details-layout__about-title{
+color: #333b46;
+font-family: "Source Sans Pro";
+font-size: 20px;
+font-weight: 300;
+line-height: 12px;
+text-transform: uppercase;
+/* Text style for "DetailS AB" */
+letter-spacing: 4px;
+}
+.about-us-details-layout__about-discription{
+color: #81868e;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 25px;
+/* Text style for "A, t vero" */
+letter-spacing: 0.7px;
+}
+.about-us-details-layout__icons-block{
+display: flex;
+justify-items: center;
+align-items: center;
+align-content: center;
+
+justify-content: space-between;
+width: 50%;
+
+
+}
+.about-us-details-layout__icon{
+    width: 53px;
+height: 53px;
+background-color: #81868e;
+border-radius: 53px;
+position: relative;
+
+}
+.about-us-details-layout__icon-shadow{
+    width: 53px;
+height: 53px;
+background-color: #19bd9a;;
+border-radius: 53px;
+position: relative;
+opacity: 0;
+
+}
+.about-us-details-layout__icon-shadow:hover{
+    opacity: 1;
+}
+.about-us-details-layout__about-heart{
+    background-image: url(../img/heart.png);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right:4px;
+    bottom: 4px;
+    background-repeat: no-repeat;
+    
+    }
+.about-us-details-layout__about-mouse{
+background-image: url(../img/mouse.png);
+width: 40px;
+    height: 40px;
+    position: absolute;
+    right:4px;
+    bottom: 4px;
+    background-repeat: no-repeat;
+}
+.about-us-details-layout__about-lamp{
+    background-image: url(../img/light.png);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right:4px;
+    bottom: 4px;
+    background-repeat: no-repeat;
+    }
+    .about-us-details-layout__middle-title{
+    align-self: flex-start;
+    color: #464646;font-family: "Open Sans";font-size: 20px;
+    }
+    .about-us-details-layout__bottom-content{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    }
+    .about-us-details-layout__left-discription{
+        color: #81868e;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+/* Text style for "A, t , eos" */
+font-family: "Open Sans";
+letter-spacing: 0.8px;
+/* Text style for "vero" */
+color: #19bd9a;
+font-family: "Open Sans";
+font-weight: 700;
+letter-spacing: 0.8px;
+/* Text style for "ducimus" */
+color: #636971;
+font-family: "Open Sans";
+font-weight: 700;
+letter-spacing: 0.8px;
+    }
+    .about-us-details-layout__right-discription{
+        color: #81868e;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+line-height: 25px;
+/* Text style for "A, t vero" */
+font-family: "Open Sans";
+letter-spacing: 0.7px;
+/* Text style for "corrupti q" */
+color: #636971;
+font-family: "Open Sans";
+font-weight: 700;
+letter-spacing: 0.7px;
+/* Text style for "," */
+color: #636971;
+font-family: "Open Sans";
+letter-spacing: 0.7px;
+/* Text style for "excepturi" */
+color: #19bd9a;
+font-family: "Open Sans";
+font-weight: 700;
+letter-spacing: 0.7px;
+    }
