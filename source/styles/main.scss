@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 *{box-sizing: border-box;
-
+    
 }
 @font-face{
     font-family: "Source Sans Pro";
@@ -24,13 +24,13 @@ body{
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
-
+    
 }
 .contanier{
     width: 80%;
     margin: 0 auto;
     
-
+    
 }
 .slider-layout__contanier{
     
@@ -40,52 +40,48 @@ body{
     align-items: center;
 }
 .slider-layout__title{
-
-padding-top: 150px;;
-color: #ffffff;
-font-family: "Source Sans Pro";
-font-size: 35px;
-font-weight: 300;
-line-height: 70px;
-text-transform: uppercase;
-letter-spacing: 7px;
-text-align: center;
+    
+    padding-top: 150px;;
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 70px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    text-align: center;
 }
 
 .slider-layout__content{
-
-color: #ffffff;
-font-family: "Open Sans";
-font-size: 16px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0.8px;
-text-align: center;
+    
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+    text-align: center;
 }
 .slider-layout__slider_img{
-background-image: url(../img/Ellipse_1_copy.png);
-width: 36px;
-height: 36px;
-background-color: #19bd9a;
-border-radius: 36px;
-position: relative;
-margin-top: 120px;
-
+    position: relative;
+    width: 36px;
+    height: 36px;
+    background-color: #19bd9a;
+    border-radius: 36px;
+    position: relative;
+    margin-bottom: 50px;
+    
 }
-.slider-layout__slider_symbol{
+.slider-layout__slider_arrow{
     position: absolute;
-    width: 12px;
-    height: 12px;
-    align-self: center;
-    color: #ffffff;
-   text-align: center;
-   right: 10px;
-   bottom: 30px;
-   
+    background-image: url(../img/arrow.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
 }
 .about-us-layout__contanier{
     display: flex;
- justify-items: center;
+    justify-items: center;
     justify-content: space-around;
     align-items: center;
     margin-top: 80px;
@@ -97,97 +93,90 @@ margin-top: 120px;
 }
 .about-us-layout__title{
     color: #333b46;
-font-family: "Source Sans Pro";
-font-size: 20px;
-font-weight: 300;
-line-height: 12px;
-text-transform: uppercase;
-/* Text style for "This is Bo" */
-letter-spacing: 4px;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase;
+    /* Text style for "This is Bo" */
+    letter-spacing: 4px;
 }
 .about-us-layout__discription{
     color: #81868e;
-font-family: "Open Sans";
-font-size: 14px;
-font-weight: 400;
-line-height: 25px;
-/* Text style for "A, t vero" */
-letter-spacing: 0.7px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    /* Text style for "A, t vero" */
+    letter-spacing: 0.7px;
 }
 .about-us-layout__button{
-color: #333b46;
-width: 140px;
-height: 37px;
-border-radius: 19px;
-border: 1px solid #333b46;
-font-family: "Open Sans";
-font-size: 16px;
-font-weight: 400;
-line-height: 3px;
-
-text-align: center;
-
+    color: #333b46;
+    width: 140px;
+    height: 37px;
+    border-radius: 19px;
+    border: 1px solid #333b46;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 3px;
+    
+    text-align: center;
+    
 }
 .about-us-layout__img{
-background-image: url(../img/IPAD.png);
-width: 215px;
-height: 350px;
-background-repeat: round;
+    background-image: url(../img/IPAD.png);
+    width: 215px;
+    height: 350px;
+    background-repeat: round;
 }
 
 .about-us-details-layout{
-   background-color: rgb(245, 245, 245); 
+    background-color: rgb(245, 245, 245); 
 }
 .about-us-details-layout__contanier{
     display: flex;
-  
+    
     flex-direction: column;
     align-items: center;
 }
 .about-us-details-layout__about-content{
-display: flex;
-justify-items: center;
-align-items: center;
-flex-direction: column;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
 }
 .about-us-details-layout__about-title{
-color: #333b46;
-font-family: "Source Sans Pro";
-font-size: 20px;
-font-weight: 300;
-line-height: 12px;
-text-transform: uppercase;
-/* Text style for "DetailS AB" */
-letter-spacing: 4px;
+    color: #333b46;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase;
+    /* Text style for "DetailS AB" */
+    letter-spacing: 4px;
 }
 .about-us-details-layout__about-discription{
-color: #81868e;
-font-family: "Open Sans";
-font-size: 14px;
-font-weight: 400;
-line-height: 25px;
-/* Text style for "A, t vero" */
-letter-spacing: 0.7px;
+    color: #81868e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    /* Text style for "A, t vero" */
+    letter-spacing: 0.7px;
 }
 .about-us-details-layout__icons-block{
-display: flex;
-justify-items: center;
-align-items: center;
-align-content: center;
-
-justify-content: space-between;
-width: 50%;
-
-
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    
+    justify-content: space-between;
+    width: 50%;
+    
+    
 }
-.about-us-details-layout__icon{
-    width: 53px;
-height: 53px;
-background-color: #81868e;
-border-radius: 53px;
-position: relative;
 
-}
 
 .about-us-details-layout__about-heart{
     background-image: url(../img/heart.png);
@@ -198,10 +187,10 @@ position: relative;
     bottom: 4px;
     background-repeat: no-repeat;
     
-    }
+}
 .about-us-details-layout__about-mouse{
-background-image: url(../img/mouse.png);
-width: 40px;
+    background-image: url(../img/mouse.png);
+    width: 40px;
     height: 40px;
     position: absolute;
     right:4px;
@@ -216,71 +205,304 @@ width: 40px;
     right:4px;
     bottom: 4px;
     background-repeat: no-repeat;
-    }
-    .about-us-details-layout__icon-shadow{
-        width: 53px;
+}
+.about-us-details-layout__icon-shadow{
+    width: 53px;
     height: 53px;
     background-color: gray;
     border-radius: 53px;
     position: relative;
     transition: 0.3s all ease-in-out;
     
-    }
-    .about-us-details-layout__icon-shadow:hover{
-        background-color: #19bd9a;
-    }
-    .about-us-details-layout__middle-title{
+}
+.about-us-details-layout__icon-shadow:hover{
+    background-color: #19bd9a;
+}
+.about-us-details-layout__middle-title{
     align-self: flex-start;
-    color: #464646;font-family: "Open Sans";font-size: 20px;
-    }
-    .about-us-details-layout__bottom-content{
+    color: #464646;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 125px;
+    /* Text style for "Creative I" */
+    letter-spacing: 0.8px;
+}
+.about-us-details-layout__bottom-content{
     display: flex;
     justify-items: center;
     align-items: center;
     align-content: center;
     justify-content: space-between;
+}
+.about-us-details-layout__left-discription{
+    color: #81868e;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    /* Text style for "A, t , eos" */
+    font-family: "Open Sans";
+    letter-spacing: 0.8px;
+    margin-right: 50px;
+}
+.about-us-details-layout__right-discription{
+    color: #81868e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    /* Text style for "A, t vero" */
+    font-family: "Open Sans";
+    letter-spacing: 0.7px;
+    margin-left: 50px;
+}
+.about-us-details-layout__text-bold{
+    /* Text style for "ducimus" */
+    color: #636971;
+    font-family: "Open Sans";
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+
+.about-us-details-layout__text-color{
+    /* Text style for "vero" */
+    color: #19bd9a;
+    font-family: "Open Sans";
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+
+
+.about-us-details-layout__right-discription{
+    color: #81868e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    /* Text style for "A, t vero" */}
+    
+    .featured-work-layout__content{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
     }
-    .about-us-details-layout__left-discription{
+    .featured-work-layout__title{
+        color: #333b46;
+        font-family: "Source Sans Pro";
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 12px;
+        text-transform: uppercase;
+        /* Text style for "FEATURED P" */
+        letter-spacing: 4px;
+        text-align: center;
+    }
+    .featured-work-layout__discription{
         color: #81868e;
-font-family: "Open Sans";
-font-size: 16px;
-font-weight: 400;
-line-height: 28px;
-/* Text style for "A, t , eos" */
-font-family: "Open Sans";
-letter-spacing: 0.8px;
-/* Text style for "vero" */
-color: #19bd9a;
-font-family: "Open Sans";
-font-weight: 700;
-letter-spacing: 0.8px;
-/* Text style for "ducimus" */
-color: #636971;
-font-family: "Open Sans";
-font-weight: 700;
-letter-spacing: 0.8px;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        /* Text style for "A, t vero" */
+        letter-spacing: 0.7px;
+        text-align: center;
     }
-    .about-us-details-layout__right-discription{
+    
+    .featured-work-layout__content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .featured-work-layout__title{
+        color: #333b46;
+        font-family: "Source Sans Pro";
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 12px;
+        text-transform: uppercase;
+        /* Text style for "Our Servic" */
+        letter-spacing: 4px;
+    }
+    .featured-work-layout__discription{
         color: #81868e;
-font-family: "Open Sans";
-font-size: 14px;
-font-weight: 400;
-line-height: 25px;
-/* Text style for "A, t vero" */
-font-family: "Open Sans";
-letter-spacing: 0.7px;
-/* Text style for "corrupti q" */
-color: #636971;
-font-family: "Open Sans";
-font-weight: 700;
-letter-spacing: 0.7px;
-/* Text style for "," */
-color: #636971;
-font-family: "Open Sans";
-letter-spacing: 0.7px;
-/* Text style for "excepturi" */
-color: #19bd9a;
-font-family: "Open Sans";
-font-weight: 700;
-letter-spacing: 0.7px;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        /* Text style for "A, t vero" */
+        letter-spacing: 0.7px;
     }
+    .our-services-layout__content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .our-services-layout__title{
+        color: #333b46;
+        font-family: "Source Sans Pro";
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 12px;
+        
+        /* Text style for "Our Servic" */
+        letter-spacing: 4px;
+    }
+    .our-services-layout__description{
+        color: #81868e;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        /* Text style for "A, t vero" */
+        letter-spacing: 0.7px;
+    }
+    .our-services-layout__graphics{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .our-services-layout__icons-block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+        
+    }
+    .our-services-layout__icons-shape{
+        width: 53px;
+        height: 53px;
+        background-color:#81868e;
+        border-radius: 53px;
+        position: relative;
+        transition: 0.3s all ease-in-out;
+        
+    }
+    .our-services-layout__icons-shape:hover{
+        background-color: #19bd9a;
+    }
+    .our-services-layout__icons-tools{
+        background-image: url(../img/tools.png);
+        width: 40px;
+        height: 40px;
+        right:4px;
+        bottom: 4px;
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+    .our-services-layout__icons-paint{
+        background-image: url(../img/paint.png);
+        width: 40px;
+        height: 40px;
+        right:4px;
+        bottom: 4px;
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+    .our-services-layout__icons-game{
+        background-image: url(../img/game.png);
+        width: 40px;
+        height: 40px;
+        right:4px;
+        bottom: 4px;
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+    .our-services-layout__icons-plug{
+        background-image: url(../img/plug.png);
+        width: 40px;
+        height: 40px;
+        right:4px;
+        bottom: 4px;
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+    .our-services-layout__content-block{
+        margin-left: 50px;
+        width: 30%;
+    }
+    .our-services-layout__title{
+        color: #464646;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 125px;
+        /* Text style for "Graphic De" */
+        letter-spacing: 0.8px;
+    }
+    .our-services-layout__first-discription{
+        color: #81868e;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        /* Text style for "A, t vero" */
+    }
+    .our-services-layout__second-discription{
+        color: #81868e;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px}
+        .our-services-layout__diagram-block{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        
+        .our-services-layout__circle{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .our-services-layout__percent-block{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+            
+        }
+        .our-services-layout__circle-bg{
+            width: 120px;
+            height: 120px;
+            border: 3px solid #047378;
+            border-radius: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: nowrap;
+            position: relative;
+            
+        }
+        
+        .our-services-layout__circle-percent-1{
+            background-image: url(../img/Ellipse_1.png);
+            width: 124px;
+            height: 124px;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+              
+        
+        }
+        
+        .our-services-layout_text{
+            text-align: center;
+        }
+        
+        
+        
+        
