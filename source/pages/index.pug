@@ -1,60 +1,400 @@
 doctype html
 html
     head 
-        link(rel="stylesheet", href="styles/main.css")
+        link(rel="stylesheet" href="styles/main.css")
+        link(href="css/tox-progress.css" rel="stylesheet")
+        script(src="js/tox-progress.js")
         meta(charset="UTF-8")
         title We Are Code Cafe
         meta(name="viewport" content="width=device-width,initial-scale=1")
-        
+
     body
-     section.slider-layout
-        .contanier.slider-layout__contanier
-            .slider-layout__title
-             p We Are Code Cafe
-            .slider-layout__content
-             p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-            .slider-layout__slider_img
-                .slider-layout__slider_symbol
-                 p >
-             
-     section.about-us-layout
-        .contanier.about-us-layout__contanier
-            .about-us-layout__content
-                .about-us-layout__title
-                 p This is Bouncy
-                .about-us-layout__discription
-                 p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. 
-                .about-us-layout__button
-                 p Read More
-            .about-us-layout__img
-     section.about-us-details-layout
-        .contanier.about-us-details-layout__contanier
-            .about-us-details-layout__about-content
-                .about-us-details-layout__about-title
-                 p DETAILS ABOUT BOUNCY
-                .about-us-details-layout__about-discription
-                 p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-            .about-us-details-layout__icons-block
-                .about-us-details-layout__icon
-                    .about-us-details-layout__icon-shadow
-                        .about-us-details-layout__about-heart
-                .about-us-details-layout__icon
-                    .about-us-details-layout__icon-shadow
-                        .about-us-details-layout__about-mouse
-                .about-us-details-layout__icon
-                    .about-us-details-layout__icon-shadow
-                        .about-us-details-layout__about-lamp
-                
-            .about-us-details-layout__middle-title
-             p Creative Ideas
-            .about-us-details-layout__bottom-content
-                .about-us-details-layout__left-discription
-                 p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores 
-                .about-us-details-layout__right-discription
-                 p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem r
+        section.slider-layout
+
+            .contanier.slider-layout__contanier
+                .contanier.slider-layout__header
+                    .about-us-details-layout__name
+                        p Bouncy
+                    .about-us-details-layout__navigation
+                        .about-us-details-layout__navigation-button
+                            .about-us-details-layout__item-active
+                                a.text-item.about-us-details-layout__hello(href="#hello") Hello
+                        .about-us-details-layout__navigation-button
+                            .about-us-details-layout__item-active
+                                a.text-item.about-us-details-layout__about(href="#about") About
+                        .about-us-details-layout__navigation-button
+                            .about-us-details-layout__item-active
+                                a.text-item.about-us-details-layout__services(href="#services") Services
+                        .about-us-details-layout__navigation-button
+                            .about-us-details-layout__item-active
+                                a.text-item.about-us-details-layout__portfolio(href="#portfolio") Portfolio
+                        .about-us-details-layout__navigation-button
+                            .about-us-details-layout__item-active
+                                a.text-item.about-us-details-layout__team(href="#portfolio") Team
+                        .about-us-details-layout__navigation-button
+                            .about-us-details-layout__item-active
+                                a.text-item.about-us-details-layout__blog(href="#portfolio") Blog
+                        .about-us-details-layout__navigation-button
+                            .about-us-details-layout__item-active
+                                a.text-item.about-us-details-layout__contact(href="#contact") Contact
+                .slider-layout__content            
+                    .slider-layout__title
+                        p We Are Code Cafe
+                    .slider-layout__discription
+                        p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                .slider-layout__slider_img
+                    .slider-layout__slider_arrow
+        a(name="hello") 
+        section.about-us-layout
+            .contanier.about-us-layout__contanier
+                .about-us-layout__content
+                    .about-us-layout__title
+                        p This is Bouncy
+                    .about-us-layout__discription
+                        p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. 
+                    .about-us-layout__button
+                        p Read More
+                .about-us-layout__img
+        a(name="about")
+        section.about-us-details-layout
 
 
-            
+            .contanier.about-us-details-layout__contanier
+                .about-us-details-layout__about-content
+                    .about-us-details-layout__about-title
+                        p DETAILS ABOUT BOUNCY
+                    .about-us-details-layout__about-discription
+                        p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                .about-us-details-layout__icons-block
+                    .about-us-details-layout__icon
+                        .about-us-details-layout__icon-shadow
+                            .about-us-details-layout__about-heart
+                    .about-us-details-layout__icon
+                        .about-us-details-layout__icon-shadow
+                            .about-us-details-layout__about-mouse
+                    .about-us-details-layout__icon
+                        .about-us-details-layout__icon-shadow
+                            .about-us-details-layout__about-lamp
 
-    
-        
+                .about-us-details-layout__middle-title
+                    p Creative Ideas
+                .about-us-details-layout__bottom-content
+                    p.about-us-details-layout__left-discription At 
+                        span.about-us-details-layout__text-color vero
+                        |  eos et accusamus et iusto odio dignissimos 
+                        span.about-us-details-layout__text-bold ducimus
+                        |  qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores 
+
+                    p.about-us-details-layout__right-discription At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
+                        span.about-us-details-layout__text-bold corrupti quos 
+                        |  dolores et quas molestias 
+                        span.about-us-details-layout__text-color excepturi  
+                        |  sint occaecati cupiditate non provident, 
+                        span.about-us-details-layout__text-bold similique 
+                        | sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem r
+
+        section.featured-work-layout
+            .contanier.featured-work-layout__contanier
+                .featured-work-layout__content
+                    .featured-work-layout__title
+                        p FEATURED PROJECTS
+                    .featured-work-layout__discription
+                        p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+        section.works-layout
+            .works-layout__contanier
+                .works-layout__whiskey
+                    p.works-layout__text WISKEY
+                .works-layout__vintage
+                    p.works-layout__text VINTAGE
+                .works-layout__branding
+                    p.works-layout__text BRANDING
+                .works-layout__snickers
+                    p.works-layout__content At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
+                    p.works-layout__button Submit Now
+        a(name="services")
+        section.our-services-layout
+            .contanier.our-services-layout__contanier
+                .our-services-layout__content
+                    .our-services-layout__title
+                        p OUR SERVICES
+                    .our-services-layout__description
+                        p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                .our-services-layout__graphics
+                    .our-services-layout__icons-block
+                        .our-services-layout__icons-shape
+                            .our-services-layout__icons-tools
+                        .our-services-layout__icons-shape
+                            .our-services-layout__icons-paint
+                        .our-services-layout__icons-shape
+                            .our-services-layout__icons-game
+                        .our-services-layout__icons-shape
+                            .our-services-layout__icons-plug        
+                    .our-services-layout__content-block
+                        .our-services-layout__title
+                            p Graphic Design
+                            p.our-services-layout__first-discription At vero eos et accusamus et 
+                                span.about-us-details-layout__text-color iusto 
+                                | odio dignissimos 
+                                span.about-us-details-layout__text-bold ducimus 
+                                | qui blanditiis praesentium voluptatum deleniti
+                            p.our-services-layout__second-discription quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
+                                span.about-us-details-layout__text-color similique sunt 
+                                | in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
+                    .our-services-layout__diagram-block
+                        .our-services-layout__percent-block
+                            .our-services-layout__circle
+                                .our-services-layout__circle-bg
+                                    p.our-services-layout_text 80%
+                                    .our-services-layout__circle-percent-1
+
+                            .our-services-layout__name
+                                p Branding
+                        .our-services-layout__percent-block
+                            .our-services-layout__circle
+                                .our-services-layout__circle-bg
+                                    p.our-services-layout_text 75%
+                                    .our-services-layout__circle-percent-2
+
+
+
+                            .our-services-layout__name
+                                p Web Design
+                        .our-services-layout__percent-block
+                            .our-services-layout__circle
+                                .our-services-layout__circle-bg
+                                    p.our-services-layout_text 60%
+                                    .our-services-layout__circle-percent-3
+
+
+                            .our-services-layout__name
+                                p UI/UX
+
+        section.team-quotes__layout
+            .contanier.team-quotes__contanier
+                .team-quotes__content
+                    p.team-quotes__title Impressed ?
+                    p.team-quotes__dicription At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
+                    span.team-quotes__author-bold - Abdullah Noman 
+                    p.team-quotes__author Creatice Director, 
+                        span.team-quotes__author-color Code Cafe
+                .team-quotes__mac
+                    .team-quotes__image
+                     p.team-quotes__screen-text B
+                        span.team-quotes__screen-text-color o
+                        |uncy
+
+        a(name="portfolio") 
+        section.portfolio-layout
+            .contanier.portfolio__contanier
+                .portfolio__content
+                    p.portfolio__title THE PORTFOLIO
+                    p.portfolio__discription At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                .portfolio__menu-web
+                    .portfolio__menu-item
+                        p All Works
+                        .portfolio__active-item
+                    .portfolio__menu-item
+                        p Print
+                        .portfolio__active-item
+                    .portfolio__menu-item
+                        p Identity
+                        .portfolio__active-item
+                    .portfolio__menu-item
+                        p Branding
+                        .portfolio__active-item
+                    .portfolio__menu-item
+                        p Web
+                        .portfolio__active-item
+                    .portfolio__menu-item
+                        p HTML
+                        .portfolio__active-item
+                    .portfolio__menu-item
+                        p Wordpress
+                        .portfolio__active-item
+                .portfolio__grid-prewiew
+                    .portfolio__grid-prewiew-item1
+                        .portfolio__grid-prewiew-content
+                            .portfolio__grid-prewiew-item1-title
+                                p BAG
+                            .portfolio__grid-prewiew-item-underline
+                            .portfolio__grid-prewiew-item-discription
+                                p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            .portfolio__grid-prewiew-item-action
+                                .portfolio__grid-prewiew-item-link
+                                    .portfolio__grid-prewiew-item-link-icon
+                                .portfolio__grid-prewiew-item-like
+                                    .portfolio__grid-prewiew-item-like-icon
+                    .portfolio__grid-prewiew-item2
+                        .portfolio__grid-prewiew-content
+                            .portfolio__grid-prewiew-item2-title
+                                p BOOK
+                            .portfolio__grid-prewiew-item-underline
+                            .portfolio__grid-prewiew-item-discription
+                                p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            .portfolio__grid-prewiew-item-action
+                                .portfolio__grid-prewiew-item-link
+                                    .portfolio__grid-prewiew-item-link-icon
+                                .portfolio__grid-prewiew-item-like
+                                    .portfolio__grid-prewiew-item-like-icon
+                    .portfolio__grid-prewiew-item3
+                        .portfolio__grid-prewiew-content
+                            .portfolio__grid-prewiew-item3-title
+                                p COVER
+                            .portfolio__grid-prewiew-item-underline
+                            .portfolio__grid-prewiew-item-discription
+                                p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            .portfolio__grid-prewiew-item-action
+                                .portfolio__grid-prewiew-item-link
+                                    .portfolio__grid-prewiew-item-link-icon
+                                .portfolio__grid-prewiew-item-like
+                                    .portfolio__grid-prewiew-item-like-icon
+                    .portfolio__grid-prewiew-item4
+                        .portfolio__grid-prewiew-content
+                            .portfolio__grid-prewiew-item4-title
+                                p BAG
+                            .portfolio__grid-prewiew-item-underline
+                            .portfolio__grid-prewiew-item-discription
+                                p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            .portfolio__grid-prewiew-item-action
+                                .portfolio__grid-prewiew-item-link
+                                    .portfolio__grid-prewiew-item-link-icon
+                                .portfolio__grid-prewiew-item-like
+                                    .portfolio__grid-prewiew-item-like-icon
+                    .portfolio__grid-prewiew-item5
+                        .portfolio__grid-prewiew-content
+                            .portfolio__grid-prewiew-item5-title
+                                p LAMP
+                                .portfolio__grid-prewiew-item-underline
+                                .portfolio__grid-prewiew-item-discription
+                                    p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                                .portfolio__grid-prewiew-item-action
+                                    .portfolio__grid-prewiew-item-link
+                                        .portfolio__grid-prewiew-item-link-icon
+                                    .portfolio__grid-prewiew-item-like
+                                        .portfolio__grid-prewiew-item-like-icon
+                    .portfolio__grid-prewiew-item6
+                        .portfolio__grid-prewiew-content
+                            .portfolio__grid-prewiew-item6-title
+                                p BOTTLES
+                            .portfolio__grid-prewiew-item-underline
+                            .portfolio__grid-prewiew-item-discription
+                                p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            .portfolio__grid-prewiew-item-action
+                                .portfolio__grid-prewiew-item-link
+                                    .portfolio__grid-prewiew-item-link-icon
+                                .portfolio__grid-prewiew-item-like
+                                    .portfolio__grid-prewiew-item-like-icon
+                    .portfolio__grid-prewiew-item7
+                        .portfolio__grid-prewiew-content
+                            .portfolio__grid-prewiew-item7-title
+                                P TITLE HERE
+                            .portfolio__grid-prewiew-item-underline
+                            .portfolio__grid-prewiew-item-discription
+                                p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            .portfolio__grid-prewiew-item-action
+                                .portfolio__grid-prewiew-item-link
+                                    .portfolio__grid-prewiew-item-link-icon
+                                .portfolio__grid-prewiew-item-like
+                                    .portfolio__grid-prewiew-item-like-icon
+                    .portfolio__grid-prewiew-item8
+                        .portfolio__grid-prewiew-content
+                            .portfolio__grid-prewiew-item8-title
+                                p BAG
+                            .portfolio__grid-prewiew-item-underline
+                            .portfolio__grid-prewiew-item-discription
+                                p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            .portfolio__grid-prewiew-item-action
+                                .portfolio__grid-prewiew-item-link
+                                    .portfolio__grid-prewiew-item-link-icon
+                                .portfolio__grid-prewiew-item-like
+                                    .portfolio__grid-prewiew-item-like-icon
+                    .portfolio__grid-prewiew-item9
+                        .portfolio__grid-prewiew-content
+                            .portfolio__grid-prewiew-item9-title
+                                p IPA
+                            .portfolio__grid-prewiew-item-underline
+                            .portfolio__grid-prewiew-item-discription
+                                p At vero eos et accusamus
+                            .portfolio__grid-prewiew-item-action
+                                .portfolio__grid-prewiew-item-link
+                                    .portfolio__grid-prewiew-item-link-icon
+                                .portfolio__grid-prewiew-item-like
+                                    .portfolio__grid-prewiew-item-like-icon
+                    .portfolio__grid-prewiew-item10
+                        .portfolio__grid-prewiew-content
+                            .portfolio__grid-prewiew-item10-title
+                                p SIGNATURE
+                            .portfolio__grid-prewiew-item-underline
+                            .portfolio__grid-prewiew-item-discription
+                                p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            .portfolio__grid-prewiew-item-action
+                                .portfolio__grid-prewiew-item-link
+                                    .portfolio__grid-prewiew-item-link-icon
+                                .portfolio__grid-prewiew-item-like
+                                    .portfolio__grid-prewiew-item-like-icon
+                    .portfolio__grid-prewiew-item11
+                        .portfolio__grid-prewiew-content
+                            .portfolio__grid-prewiew-item11-title
+                                p SOFA
+                            .portfolio__grid-prewiew-item-underline
+                            .portfolio__grid-prewiew-item-discription
+                                p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            .portfolio__grid-prewiew-item-action
+                                .portfolio__grid-prewiew-item-link
+                                    .portfolio__grid-prewiew-item-link-icon
+                                .portfolio__grid-prewiew-item-like
+                                    .portfolio__grid-prewiew-item-like-icon
+                    .portfolio__grid-prewiew-item12
+                        .portfolio__grid-prewiew-content
+                            .portfolio__grid-prewiew-item12-title
+                                p IPAD
+                            .portfolio__grid-prewiew-item-underline
+                            .portfolio__grid-prewiew-item-discription
+                                p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            .portfolio__grid-prewiew-item-action
+                                .portfolio__grid-prewiew-item-link
+                                    .portfolio__grid-prewiew-item-link-icon
+                                .portfolio__grid-prewiew-item-like
+                                    .portfolio__grid-prewiew-item-like-icon
+                .portfolio__start-project
+                    .portfolio__start-project-content
+                        p.portfolio__start-project-slogan At vero eos et 
+                            span.portfolio__start-project-content-bold accusamus 
+                            | et iusto odio 
+                            span.portfolio__start-project-content-bold dignissimos 
+                            | ducimus qui blanditiis 
+                        .portfolio__start-project-botton
+                            p Start Project
+
+    section.contacts-layout
+        .contacts-layout__map
+            p FIND US ON THE MAP
+        .contacts-layout__point
+            .contacts-layout__point-arrow
+
+    a(name="contact")
+    section.social-layout
+        .contanier.social-layout__contanier
+            .contacts-layout__content
+                .contacts-layout__company-name
+                    p Bouncy
+                .contacts-layout__copyright
+                    p Copyright 2020. All rights Reserved
+                .contacts-layout__social
+                    .contacts-layout__social-item1
+                        .contacts-layout__social-icon1
+                    .contacts-layout__social-item2
+                        .contacts-layout__social-icon2
+                    .contacts-layout__social-item3
+                        .contacts-layout__social-icon3
+                    .contacts-layout__social-item4
+                        .contacts-layout__social-icon4
+                    .contacts-layout__social-item5
+                        .contacts-layout__social-icon5
+
+
+
+
+
+
+
