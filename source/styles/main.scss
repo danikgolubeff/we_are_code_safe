@@ -22,6 +22,10 @@ body {
     font-family: "Pe-icon-7-stroke";
     src: url(../fonts/Pe-icon-7-stroke.ttf);
 }
+.contanier {
+    width: 80%;
+    margin: 0 auto;
+}
 @import 'header';
 
 @import 'about-us';
@@ -29,139 +33,8 @@ body {
 @import 'about-us-details.scss';
 
 @import 'featers';
-.works-layout__contanier {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: 5fr 1fr;
-}
-.works-layout__whiskey {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 5;
-    background-image: url(../img/wiskey.png);
-    height: 280px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-}
-.works-layout__text {
-    text-align: center;
-    padding-top: 140px;
-    color: #ffffff;
-    font-family: "Source Sans Pro";
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 12px;
-    /* Text style for "VINTAGE" */
-    letter-spacing: 4px;
-    opacity: 0;
-}
 
-.works-layout__whiskey:hover .works-layout__text {
-    box-shadow: inset 2000px 0px 0px #000000d2;
-    transition: 0.5s all ease-in-out;
-    opacity: 1;
-    height: 100%;
-    width: 100%;
-}
-.works-layout__vintage {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 5;
-    background-image: url(../img/vintage.png);
-    height: 280px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-}
-
-.works-layout__vintage:hover .works-layout__text {
-    box-shadow: inset 1000px 0px 0px #000000d2;
-    transition: 0.5s all ease-in-out;
-    opacity: 1;
-    height: 100%;
-    width: 100%;
-}
-
-.works-layout__branding {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 5;
-    background-image: url(../img/branding.png);
-    height: 280px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-}
-
-.works-layout__branding:hover .works-layout__text {
-    box-shadow: inset 1000px 0px 0px #000000d2;
-    transition: 0.5s all ease-in-out;
-    opacity: 1;
-    height: 100%;
-    width: 100%;
-}
-
-.works-layout__snickers {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 5;
-    grid-row-end: 6;
-    background-image: url(../img/snikers.png);
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: inset 4000px 0px 0px #19bd99a9;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.works-layout__content {
-    margin-left: 30px;
-
-    color: #ffffff;
-    font-family: "Source Sans Pro";
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 12px;
-
-    /* Text style for "VINTAGE" */
-    letter-spacing: 4px;
-    margin-right: 100px;
-}
-@media only screen and (max-width: 1024px) {
-    /* стили */
-    .works-layout__content{
-        line-height: 22px;
-        }
-    }
-.works-layout__button {
-    margin-right: 30px;
-    width: 140px;
-    height: 37px;
-    border-radius: 19px;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-    font-family: "Open Sans";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 12px;
-    text-align: center;
-    padding-top: 9px;
-}
-@media only screen and (max-width: 1024px) {
-    /* стили */
-    .works-layout__button{
-        width: 200px;
-        }
-    }
+@import'works';
 
 .our-services-layout__content {
     display: flex;

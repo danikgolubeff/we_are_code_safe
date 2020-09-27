@@ -1,0 +1,132 @@
+.works-layout {
+    &__contanier {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-rows: 5fr 1fr;
+    }
+    &__whiskey {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 5;
+        background-image: url(../img/wiskey.png);
+        height: 280px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+    }
+    &__text {
+        text-align: center;
+        padding-top: 140px;
+        color: #ffffff;
+        box-shadow: inset 2000px 0px 0px #000000d2;
+        transition: 0.5s all ease-in-out;
+        font-family: "Source Sans Pro";
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 12px;
+        /* Text style for "VINTAGE" */
+        letter-spacing: 4px;
+        opacity: 0;
+    }
+
+    &__whiskey:hover &__text {
+        opacity: 1;
+        height: 100%;
+        width: 100%;
+    }
+    &__vintage {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 5;
+        background-image: url(../img/vintage.png);
+        height: 280px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+    }
+
+    &__vintage:hover &__text {
+        opacity: 1;
+        height: 100%;
+        width: 100%;
+    }
+
+    &__branding {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 5;
+        background-image: url(../img/branding.png);
+        height: 280px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+    }
+
+    &__branding:hover &__text {
+        opacity: 1;
+        height: 100%;
+        width: 100%;
+    }
+
+    &__snickers {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        background-image: url(../img/snikers.png);
+        height: 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: inset 4000px 0px 0px #19bd99a9;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &__content {
+        margin-left: 30px;
+
+        color: #ffffff;
+        font-family: "Source Sans Pro";
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 12px;
+
+        /* Text style for "VINTAGE" */
+        letter-spacing: 4px;
+        margin-right: 100px;
+    }
+
+    &__button {
+        margin-right: 30px;
+        width: 140px;
+        height: 37px;
+        border-radius: 19px;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 12px;
+        text-align: center;
+        padding-top: 9px;
+    }
+    @media only screen and (max-width: 1024px) {
+        /* стили */
+        &__content {
+            line-height: 22px;
+        }
+    }
+    @media only screen and (max-width: 1024px) {
+        /* стили */
+        &__button {
+            width: 200px;
+        }
+    }
+}

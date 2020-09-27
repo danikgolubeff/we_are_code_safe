@@ -1,50 +1,53 @@
-.about-us-layout__contanier {
-    display: flex;
-    justify-items: center;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-.about-us-layout__content {
-    width: 60%;
-}
-.about-us-layout__title {
-    color: #333b46;
-    font-family: "Source Sans Pro";
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 12px;
-    text-transform: uppercase;
-    /* Text style for "This is Bo" */
-    letter-spacing: 4px;
-    margin-bottom: 35px;
-}
-.about-us-layout__discription {
-    color: #81868e;
-    font-family: "Open Sans";
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 25px;
-    /* Text style for "A, t vero" */
-    letter-spacing: 0.7px;
-}
-.about-us-layout__button {
-    color: #333b46;
-    width: 140px;
-    height: 37px;
-    border-radius: 19px;
-    border: 1px solid #333b46;
-    font-family: "Open Sans";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 3px;
-margin-top: 35px;
-    text-align: center;
-}
-.about-us-layout__img {
-    background-image: url(../img/IPAD.png);
-    width: 215px;
-    height: 350px;
-    background-repeat: round;
+.about-us-layout {
+    &__contanier {
+        display: flex;
+        justify-items: center;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    &__content {
+        width: 60%;
+    }
+    &__title {
+        color: #333b46;
+        font-family: "Source Sans Pro";
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 12px;
+        text-transform: uppercase;
+        /* Text style for "This is Bo" */
+        letter-spacing: 4px;
+        margin-bottom: 35px;
+    }
+    &__discription {
+        color: #81868e;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        /* Text style for "A, t vero" */
+        letter-spacing: 0.7px;
+    }
+    &__button {
+        color: #333b46;
+        width: 140px;
+        height: 37px;
+        border-radius: 19px;
+        border: 1px solid #333b46;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 35px;
+        text-align: center;
+        padding-top: 9px;
+    }
+    &__img {
+        background-image: url(../img/IPAD.png);
+        width: 215px;
+        height: 350px;
+        background-repeat: round;
+    }
 }
