@@ -1,0 +1,119 @@
+.slider-layout {
+    background-image: url(../img/IMAGE.png);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contanier {
+    width: 80%;
+    margin: 0 auto;
+}
+.slider-layout__contanier {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contanier.slider-layout__header {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us-details-layout__navigation {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.about-us-details-layout__name {
+    color: #ffffff;
+    font-family: "Big John";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.about-us-details-layout__item-active {
+    width: 80px;
+    height: 33px;
+    border-radius: 17px;
+    border: 1px solid #ffffff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+
+.about-us-details-layout__navigation-button:hover .about-us-details-layout__item-active {
+    border: 1px solid #ffffff;
+}
+.text-item {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 12px;
+}
+.slider-layout__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.slider-layout__title {
+    padding-top: 150px;
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 70px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+.slider-layout__discription {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+    text-align: center;
+}
+.slider-layout__slider_img {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    background-color: #19bd9a;
+    border-radius: 36px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.slider-layout__slider_arrow {
+    position: absolute;
+    background-image: url(../img/arrow.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 1024px) {
+    /* стили */
+    .contanier.slider-layout__header{
+        flex-direction: column;
+        }
+    }
+@media only screen and (max-width: 768px) {
+        /* стили */
+        .about-us-details-layout__item-active{
+            
+           margin-right: 2px;
+           margin-left: 5px;
+            }
+        }

@@ -1,0 +1,148 @@
+.about-us-details-layout {
+    background-color: rgb(245, 245, 245);
+}
+.about-us-details-layout__contanier {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+.about-us-details-layout__about-content {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.about-us-details-layout__about-title {
+    color: #333b46;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 12px;
+    text-transform: uppercase;
+    /* Text style for "DetailS AB" */
+    letter-spacing: 4px;
+}
+.about-us-details-layout__about-discription {
+    color: #81868e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    /* Text style for "A, t vero" */
+    letter-spacing: 0.7px;
+}
+.about-us-details-layout__icons-block {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+
+    justify-content: space-evenly;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.about-us-details-layout__about-heart {
+    background-image: url(../img/heart.png);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    background-repeat: no-repeat;
+}
+.about-us-details-layout__about-mouse {
+    background-image: url(../img/mouse.png);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    background-repeat: no-repeat;
+}
+.about-us-details-layout__about-lamp {
+    background-image: url(../img/light.png);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    background-repeat: no-repeat;
+}
+.about-us-details-layout__icon-shadow {
+    width: 53px;
+    height: 53px;
+    background-color: gray;
+    border-radius: 53px;
+    position: relative;
+    transition: 0.3s all ease-in-out;
+}
+.about-us-details-layout__icon-shadow:hover {
+    background-color: #19bd9a;
+}
+.about-us-details-layout__middle-title {
+    align-self: flex-start;
+    color: #464646;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 125px;
+    /* Text style for "Creative I" */
+    letter-spacing: 0.8px;
+}
+.about-us-details-layout__bottom-content {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.about-us-details-layout__left-discription {
+    color: #81868e;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    /* Text style for "A, t , eos" */
+    font-family: "Open Sans";
+    letter-spacing: 0.8px;
+    margin-right: 50px;
+}
+.about-us-details-layout__right-discription {
+    color: #81868e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    /* Text style for "A, t vero" */
+    font-family: "Open Sans";
+    letter-spacing: 0.7px;
+    margin-left: 50px;
+}
+.about-us-details-layout__text-bold {
+    /* Text style for "ducimus" */
+    color: #636971;
+    font-family: "Open Sans";
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+.about-us-details-layout__text-color {
+    /* Text style for "vero" */
+    color: #19bd9a;
+    font-family: "Open Sans";
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+.about-us-details-layout__right-discription {
+    color: #81868e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    /* Text style for "A, t vero" */
+}
