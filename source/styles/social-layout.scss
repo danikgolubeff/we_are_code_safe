@@ -1,0 +1,129 @@
+&__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+&__social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+&__social-item1 {
+    width: 26px;
+    height: 26px;
+    background-color: #3b5998;
+    border-radius: 26px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+}
+&__social-icon1 {
+    background-image: url(../img/s_fb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 8px;
+    height: 14px;
+    position: absolute;
+    right: 9px;
+    top: 5px;
+}
+&__social-item2 {
+    width: 26px;
+    height: 26px;
+    background-color: #26a6d1;
+    border-radius: 26px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+}
+&__social-icon2 {
+    background-image: url(../img/s_tw.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 16px;
+    height: 13px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+&__social-item3 {
+    width: 26px;
+    height: 26px;
+    background-color: #0e76a8;
+    border-radius: 26px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+}
+&__social-icon3 {
+    background-image: url(../img/s_in.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 13px;
+    height: 12px;
+    position: absolute;
+    right: 6px;
+    top: 5px;
+}
+&__social-item4 {
+    width: 26px;
+    height: 26px;
+    background-color: #3f729b;
+    border-radius: 26px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+}
+&__social-icon4 {
+    background-image: url(../img/s_inst.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+&__social-item5 {
+    width: 26px;
+    height: 26px;
+    background-color: #86c9ef;
+    border-radius: 26px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+}
+&__social-icon5 {
+    background-image: url(../img/s_v.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 13px;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+}
+&__company-name {
+    color: #323a45;
+    color: #ffffff;
+    font-family: "Big John";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 12px;
+    /* Text style for "B, ouncy" */
+    color: #323a45;
+}
+&__copyright {
+    color: #81868e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    /* Text style for "C, opyrigh" */
+    letter-spacing: 0.7px;
+}
+&__content {
+    padding-bottom: 90px;
+}

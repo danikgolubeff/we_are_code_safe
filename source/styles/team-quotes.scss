@@ -1,0 +1,104 @@
+.team-quotes-layout {
+    background-image: url(../img/man_in_hat.png);
+    box-shadow: inset 4000px 0px 0px #000000be;
+    width: 100vw;
+    height: 372px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+
+    &__contanier {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 200px;
+    }
+    &__mac {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    &__image {
+        background-image: url(../img/imac.png);
+        width: 420px;
+        height: 328px;  
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+
+        justify-content: center;
+    }
+    &__screen-text {
+        opacity: 0.8;
+        color: #ffffff;
+        font-family: "Big John";
+        font-size: 30px;
+        font-weight: 400;
+        align-self: center;
+        padding-bottom: 65px;
+    }
+    &__screen-text-color {
+        color: #19bd9a;
+    }
+
+    &__content {
+        margin-top: 100px;
+        width: 50%;
+    }
+    &__title {
+        color: #f3f3f3;
+        font-family: "Source Sans Pro";
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 12px;
+        text-transform: uppercase;
+        /* Text style for "Impressed" */
+        letter-spacing: 4px;
+    }
+    &__dicription {
+        color: #b2b3b3;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        /* Text style for "A, t vero" */
+        letter-spacing: 0.8px;
+    }
+    @media only screen and (max-width: 768px) {
+        /* стили */
+        &__dicription {
+            margin-top: 100px;
+        }
+    }
+    &__author-bold {
+        color: #b2b3b3;
+        font-family: "Open Sans";
+        font-size: 14px;
+
+        line-height: 25px;
+        text-transform: uppercase;
+        font-family: "Open Sans";
+        font-weight: 700;
+        letter-spacing: 0.7px;
+    }
+    &__author {
+        color: #b2b3b3;
+        font-family: "Open Sans";
+        font-size: 14px;
+
+        text-transform: uppercase;
+        font-family: "Open Sans";
+        font-weight: 400;
+        letter-spacing: 0.7px;
+    }
+    &__author-color {
+        color: #19bd9a;
+        font-family: "Open Sans";
+        letter-spacing: 0.7px;
+        font-weight: 400;
+    }
+}

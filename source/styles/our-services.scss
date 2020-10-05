@@ -1,0 +1,264 @@
+.our-services-layout {
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    &__title {
+        color: #333b46;
+        font-family: "Source Sans Pro";
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 12px;
+
+        /* Text style for "Our Servic" */
+        letter-spacing: 4px;
+    }
+    &__description {
+        color: #81868e;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        /* Text style for "A, t vero" */
+        letter-spacing: 0.7px;
+    }
+    &__graphics {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__icons-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    &__icons-shape {
+        width: 53px;
+        height: 53px;
+        background-color: #81868e;
+        border-radius: 53px;
+        position: relative;
+        transition: 0.3s all ease-in-out;
+        margin-bottom: 30px;
+    }
+    &__icons-shape:hover {
+        background-color: #19bd9a;
+    }
+    &__icons-tools {
+        background-image: url(../img/tools.png);
+        width: 40px;
+        height: 40px;
+        right: 4px;
+        bottom: 4px;
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+    &__icons-paint {
+        background-image: url(../img/paint.png);
+        width: 40px;
+        height: 40px;
+        right: 4px;
+        bottom: 4px;
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+    &__icons-game {
+        background-image: url(../img/game.png);
+        width: 40px;
+        height: 40px;
+        right: 4px;
+        bottom: 4px;
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+    &__icons-plug {
+        background-image: url(../img/plug.png);
+        width: 40px;
+        height: 40px;
+        right: 4px;
+        bottom: 4px;
+        position: absolute;
+        background-repeat: no-repeat;
+    }
+    &__content-block {
+        margin-left: 50px;
+    }
+    &__title {
+        color: #464646;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 125px;
+        /* Text style for "Graphic De" */
+        letter-spacing: 0.8px;
+    }
+    &__first-discription {
+        color: #81868e;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        /* Text style for "A, t vero" */
+    }
+    &__second-discription {
+        color: #81868e;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    &__diagram-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+
+    &__name {
+        color: #81868e;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25px;
+        /* Text style for "B, randing" */
+        letter-spacing: 0.8px;
+    }
+    &_text {
+        color: #81868e;
+        font-family: "Open Sans";
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 25px;
+        /* Text style for "80" */
+        letter-spacing: 1.25px;
+        /* Text style for "%" */
+        font-size: 14px;
+        letter-spacing: 0.7px;
+    }
+
+    &__circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__percent-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 13px;
+        padding-left: 13px;
+    }
+    &__circle-bg {
+        width: 120px;
+        height: 120px;
+        border: 3px solid #047378;
+        border-radius: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        position: relative;
+
+        text-align: center;
+    }
+    @keyframes layout {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    &__circle-percent-1 {
+        background-image: url(../img/Ellipse_1.png);
+        width: 124px;
+        height: 124px;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        animation-name: layout;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+
+        animation-delay: 0s;
+        transform: rotate(360deg);
+    }
+    &__circle-percent-2 {
+        background-image: url(../img/Ellipse_2.png);
+        width: 124px;
+        height: 124px;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        animation-name: layout;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+        /* animation-direction: alternate; */
+        animation-delay: 1s;
+        transform: rotate(360deg);
+    }
+    &__circle-percent-3 {
+        background-image: url(../img/Ellipse_3.png);
+        width: 124px;
+        height: 124px;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        animation-name: layout;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: 1;
+        /* animation-direction: alternate; */
+        animation-delay: 2s;
+        transform: rotate(360deg);
+    }
+
+    &_text {
+        text-align: center;
+    }
+    
+    @media only screen and (max-width: 1000px) {
+        /* стили */
+        &__content {
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        &__content-block {
+            margin-bottom: 50px;
+            text-align: center;
+            margin-left: 0px;
+        }
+        &__graphics {
+            flex-direction: column;
+            justify-content: center;
+        }
+        &__icons-block {
+            flex-direction: row;
+        }
+        &__diagram-block {
+            margin-bottom: 100px;
+        }
+        
+    }
+}

@@ -148,4 +148,16 @@
         line-height: 25px;
         /* Text style for "A, t vero" */
     }
+    @media only screen and (max-width: 1000px) {
+        /* стили */
+        
+        &__middle-title{
+            align-self: center;
+        }
+        &__about-discription{
+        text-align: center;
+        }
+
+        
+    }
 }
